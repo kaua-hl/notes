@@ -1,0 +1,26 @@
+.header, .header__list {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-between;
+}
+
+.header__list {
+    gap: 10px 15px;
+}
+
+.header__list a {
+    padding: 10px 5px;
+    color: #000;
+}
+
+.header__list .btn {
+    display: block;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+    padding: 12px 30px;
+    font-weight: 500;
+}

@@ -1,0 +1,39 @@
+.footer {
+    background: #0D0C1A;
+    color: #fff;
+    padding: 130px 20px;
+}
+
+.footer__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: start;
+}
+
+.footer__description h3 {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer__description a {
+    display: block;
+    max-width: max-content;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin: 10px 0px 5px;
+    padding: 5px 0px;
+    transition: .3s;
+}
+
+.footer__description a:hover {
+    color: rgb(206, 206, 206);
+}
+
+.copy {
+    display: block;
+    color: rgb(206, 206, 206);
+    font-size: 14px;
+    margin-top: 100px;
+}

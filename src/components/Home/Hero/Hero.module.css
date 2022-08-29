@@ -1,0 +1,28 @@
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.hero__content h1 {
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 600;
+}
+
+.hero__content p {
+    margin: 30px 0px 25px;
+    font-size: 1.125rem;
+    line-height: 28px;
+    max-width: 50ch;
+}
+
+.hero__content .btn {
+    display: block;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+    padding: 14px 60px;
+    font-weight: 500;
+    max-width: max-content;
+}

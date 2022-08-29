@@ -1,0 +1,33 @@
+.advanced {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 50px;
+}
+
+.advanced__content {
+    max-width: 500px;
+}
+
+.advanced__content h2 {
+    max-width: 20ch;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.advanced__content p {
+    margin: 20px 0px 30px;
+    font-size: 1rem;
+    line-height: 28px;
+}
+
+.advanced__content .btn {
+    max-width: max-content;
+    display: block;
+    color: #fff;
+    background: #000;
+    border-radius: 5px;
+    padding: 12px 40px;
+    font-weight: 500;
+}

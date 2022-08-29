@@ -1,0 +1,6 @@
+.feed {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 30px;
+    min-height: 100vh;
+}
